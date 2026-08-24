@@ -14,7 +14,7 @@
       header{
       background-color: blue;
         color:#FFFFFF;
-        text-align:center;
+        text-align: center;
         max-width: 800px;
         margin: 0 auto;}
       border: 5px solid #cf1010;
@@ -24,13 +24,13 @@
       main{ 
         background-color: #FFFFFF;
            color:#183C63;
-           text-align:center;
+           text-align: center;
            max-width: 800px;
            margin: 0 auto;
+      }
+      article{
         display: flex;
       }
-
-
       img {
         width: 80px;
         heigth: 80px;
@@ -45,19 +45,21 @@
  
 
     <main>
+      <article>
       <img src="imagem-blog.jpg"
-        alt="logotipo"
+        alt="logotipo conceitual da minha vida">
+        
         <div>
-    <h2>Meu primeiro post</h2>
+      <h2>Meu primeiro post</h2>
       <p class="artigo-autor"> Por: Humberto Rosseto </p>
-    <p>Bem-vinde a minha pagina!!
+      <p>Bem-vinde a minha pagina!!
     Aqui irei compartilhr minha vida maravilhosa e cheio de acontecimentos!</p>
       <button>❤️<span>0</span></button>
       <button>💜<span>0</span></button>
-    </div>
-  </main>
-     </body>
-  <script>
+      </div>
+      </main>
+      </body>
+       <script>
     const botaoes = document.querySelector("button");
     
     botoes.forEach(function(botao){
