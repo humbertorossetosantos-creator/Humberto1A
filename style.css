@@ -1,5 +1,5 @@
 body{
-      max-with: 100vW;
+      max-with: 100vw;
 
 }
 header{
@@ -14,8 +14,9 @@ header{
         background-color: #FFFFFF;
            color:#183C63;
            margin: 0 auto;
-            padding: 16px
-            display: flex;
+            padding: 16px;
+            display:flex;
+            
       }
       article{
         display: flex;
