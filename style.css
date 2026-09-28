@@ -16,6 +16,10 @@
 }
 .tema-escuro a {
    color: var (--cor-secundaria);
+}
+.tema-escuro p{
+   color: var(--cor-texto);
+}
 
 body {
 max-with: 100vw;
