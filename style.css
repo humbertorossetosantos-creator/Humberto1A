@@ -13,8 +13,9 @@
 --cor-texto: #151428;
 --cor-constrate: #f3eef7;
 --cor-botao: #f9f9f9;
-
-} 
+}
+.tema-escuro a {
+   color: var (--cor-secundaria);
 
 body {
 max-with: 100vw;
