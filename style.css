@@ -13,8 +13,8 @@ max-with: 100vw;
 }
 
    header{
-        background-color: #183C63;
-        color:#FFFFFF;
+        background-color: var(--cor-primaria);
+        color: var(--cor-constraste);
         text-align: center;
         margin: 0 auto;
         padding: 16px
