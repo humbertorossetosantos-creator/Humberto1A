@@ -5,29 +5,33 @@
 --cor-texto: #151428;
 --cor-constrate: #f3eef7;
 --cor-botao: #f9f9f9;
+}
 
-body{
-      max-with: 100vw;
+body {
+max-with: 100vw;
 
 }
-header{
-      background-color: #183C63;
+
+   header{
+        background-color: #183C63;
         color:#FFFFFF;
         text-align: center;
         margin: 0 auto;
-      padding: 16px
-      }
+        padding: 16px
+   }
       
       main{ 
-        background-color: #FFFFFF;
-           color:#183C63;
-           margin: 0 auto;
-            padding: 16px;
-            display:flex;
+         background-color: #FFFFFF;
+         color:#183C63;
+         margin: 0 auto;
+         padding: 16px;
+            
+         display:flex;
             
       }
       article{
-        display: flex;
+            display: flex;}
+
             border: 1px solid #183C63;
             margin: 16px;
             gap: 16px;
