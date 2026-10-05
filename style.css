@@ -9,6 +9,10 @@
 --fonte-txto: 'Segoe UI', sans-serif:
 }
 
+{
+transition: background-color 0.3s ea;
+}
+
 .tema-escuro { 
 --cor-primaria: #183C63;
 --cor-secundaria: #3782d2;
@@ -37,7 +41,10 @@ max-with: 100vw;
    padding: 12px:
    background-color: var(--cor-primaria);
    border-radius: 50%;
+}
 
+.tema-escuro .btn-tema-escuro{
+   background-color: var(--cor-secundaria);
 
    header{
         background-color: var(--cor-primaria);
