@@ -25,6 +25,7 @@
 
 body {
 max-with: 100vw;
+   font-family: var (--fonte-texto);
 
 }
 
