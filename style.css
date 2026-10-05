@@ -64,12 +64,13 @@ max-with: 100vw;
             
       }
       article{
-            display: flex;}
-
+            display: flex;
             border: 1px solid #183C63;
             margin: 16px;
             gap: 16px;
             padding: 16px;
+         box-shadow: 2px 2px 10px rgba(o, 0, 0, 0.3);
+         
       }
       img {
         width: 80px;
