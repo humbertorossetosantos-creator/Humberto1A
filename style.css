@@ -6,8 +6,9 @@
 --cor-constrate: #f3eef7;
 --cor-botao: #f9f9f9;
 
-   --fonte-txto: 'Segoe UI', sans-serif:
+--fonte-txto: 'Segoe UI', sans-serif:
 }
+
 .tema-escuro { 
 --cor-primaria: #183C63;
 --cor-secundaria: #3782d2;
@@ -28,6 +29,15 @@ max-with: 100vw;
    font-family: var (--fonte-texto);
 
 }
+.btn-tema-escuro{
+   position: fixed;
+   battom: 16px;
+   right: 16px;
+   font-size: 32px;
+   padding: 12px:
+   background-color: var(--cor-primaria);
+   border-radius: 50%;
+
 
    header{
         background-color: var(--cor-primaria);
